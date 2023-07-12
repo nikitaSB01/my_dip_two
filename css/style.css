@@ -1,17 +1,19 @@
-/* @font-face {
-    font-family: "OpenSans";
-    src: url("fonts/OpenSans-Regular.woff") format("woff"), url("fonts/OpenSans-Regular.ttf") format("ttf");
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-  }
-  @font-face {
-    font-family: "OpenSansB";
-    src: url("fonts//OpenSans-Bold.woff") format("woff"), url("fonts/OpenSans-Bold.ttf") format("ttf");
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-  } */
+@font-face {
+  font-family: "OpenSans";
+  src: url("../fonts/OpenSans-Regular.woff") format("woff"), url("../fonts/OpenSans-Regular.woff2") format("woff2"),
+    url("../fonts/OpenSans-Regular.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "OpenSansB";
+  src: url("../fonts/OpenSans-Bold.woff") format("woff"), url("../fonts/OpenSans-Bold.woff2") format("woff2"),
+    url("../fonts/OpenSans-Bold.ttf") format("ttf");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
 /*//////////////////////////////////////////////////////*/
 * {
   padding: 0px;
@@ -488,28 +490,35 @@ button {
   justify-content: space-between;
 }
 .product--price {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+ 
 }
 .product--price-item {
   font-size: 20px;
-  line-height: 24px;
+  /*   line-height: 24px; */
   text-transform: uppercase;
   color: #0f0d0e;
-  font-weight: 700;
-  font-family: "Open Sans";
+  font-family: "OpenSansB";
 }
 .line-through {
   font-size: 14px;
-  line-height: 24px;
+  /*  line-height: 24px; */
   text-decoration: line-through;
   text-transform: uppercase;
   color: #0f0d0e;
-  font-weight: 700;
-  font-family: "Open Sans";
+  font-family: "OpenSansB";
 }
 .product--btn {
   min-width: 140px;
   min-height: 48px;
   background-color: #b59f5b;
+  font-size: 14px;
+  line-height: 40px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-family: "OpenSansB";
 }
 
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!FOOTER!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
