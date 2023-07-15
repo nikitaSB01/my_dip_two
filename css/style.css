@@ -152,12 +152,15 @@ li {
   margin-bottom: 32px;
   line-height: 0;
 }
-.post-tittle a {
+.post-tittle-item {
   font-size: 20px;
   line-height: 24px;
   text-transform: uppercase;
-  color: #0f0d0e;
+  color: #ffffff;
   font-family: "OpenSansB", Arial, sans-serif;
+}
+.c-b {
+  color: #0f0d0e;
 }
 .post-tittle a:hover {
   color: #b59f5b;
@@ -250,7 +253,7 @@ li {
   margin-bottom: 10px;
 }
 .item-trend-tittle {
-  color: #fff;
+  color: #ffffff;
 }
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!.add-news!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
@@ -482,7 +485,7 @@ button {
 .product-content-subtittle {
   margin-bottom: 20px;
 }
-.product-content-subtittle span {
+.product-content-subtittle span a {
   color: #b59f5b;
 }
 .product-content-footer {
@@ -493,7 +496,6 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: end;
- 
 }
 .product--price-item {
   font-size: 20px;
@@ -545,13 +547,16 @@ button {
   color: transparent;
 }
 .dribbble {
-  background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/social/001-dribbble.svg");
+  /*   background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/social/001-dribbble.svg");
+ */
 }
 .pinterest {
-  background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/social/002-pinterest.svg");
+  /*   background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/social/002-pinterest.svg");
+ */
 }
 .tumblr {
-  background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/social/003-tumblr.svg");
+  /*   background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/social/003-tumblr.svg");
+ */
 }
 
 .footer-info {
