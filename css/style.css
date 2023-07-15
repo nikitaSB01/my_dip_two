@@ -365,10 +365,14 @@ button {
   min-width: 48px;
   min-height: 48px;
   background-color: #b59f5b;
-  background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/search.svg");
+  /*  background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/search.svg");
   background-size: 18px;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center center;*/
+}
+.search-submit svg {
+  width: 18px;
+  height: 18px;
 }
 .search-submit:hover,
 .mailing-submit:hover {
@@ -582,4 +586,91 @@ button {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-/*////////////////////////////////////////*/
+/*!ВСПЛЫВАЮЩАЯ ФОРМА!*/
+.pop-up {
+  /* display: none; */
+}
+.pop-up-content {
+  max-width: 380px;
+  position: fixed;
+  z-index: 10;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  padding: 40px 20px;
+}
+.opaciti {
+  background-color: #000;
+  height: 100%;
+  left: 0;
+  opacity: 0.8;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9;
+}
+
+.pop-up-form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.pop-up-label {
+  display: flex;
+  flex-direction: column;
+}
+.pop-up--select {
+  padding: 15px;
+  min-height: 40px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background: url("../svg/form-arrows.svg");
+  background-repeat: no-repeat;
+  background-position: center right 15px;
+  background-size: 10px;
+}
+
+.pop-up--radio {
+  display: flex;
+  align-items: center;
+}
+label {
+  display: flex;
+  flex-direction: row;
+  margin-right: 20px;
+}
+input {
+  appearance: none;
+  background: url("../svg/form-empty-circle.svg");
+  width: 18px;
+  height: 18px;
+  margin: 0 5px 0 0;
+}
+input:checked {
+  background: url("../svg/form-circle.svg");
+}
+
+/*//////////////////////////////////////////////////////*/
+.pop-up--input-three {
+}
+.pop-up--textarea {
+  max-height: 100px;
+}
+.pop-up--btn {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*  max-width: 270px; */
+  width: 100%;
+  min-height: 49px;
+  background-color: #b59f5b;
+  border: none;
+  font-family: "OpenSansB", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 40px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
