@@ -1,7 +1,21 @@
 html {
     min-width: 100vw;
     min-height: 100vh;
+    min-width: 100%;
 }
+.header {
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    min-height: 450px;
+    background-image: url("../img/banner-mobile.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    object-fit: cover;
+    object-position: center center;
+    z-index: 1;
+}
+
 .burger {
     display: block;
     width: 25px;
@@ -10,7 +24,9 @@ html {
 .nav {
     display: none;
 }
-.nav-list {
+
+.trends {
+    margin-top: 40px;
 }
 .trends--content {
     display: flex;
@@ -31,6 +47,7 @@ html {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
+    row-gap: 35px;
     /*  justify-content: space-between; */
     margin-top: 65px;
     margin-bottom: 65px;
@@ -49,22 +66,70 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     max-width: 640px;
     min-height: 295px;
+    margin-top: 35px;
+    padding-bottom: 20px;
+    border-bottom: 3px solid #eeeeee;
+}
+.post:not(:last-child) {
+    margin-bottom: 35px;
 }
 .post-img {
+    display: block;
+    max-width: 100%;
+    /*   min-width: 320px; 
+    margin-top: 15px;*/
     margin-bottom: 15px;
 }
 .post-text {
     min-height: 0;
     margin-left: 0;
 }
+.post-tittle {
+    margin-bottom: 20px;
+}
+.post-data-author {
+    margin-bottom: 18px;
+}
 .add-news {
     box-sizing: content-box;
-    max-width: 270px;
-    width: 100%;
-    padding-left: 15px;
+    max-width: 100%;
+    padding-left: 0;
+    /*   margin: 0 auto; */
+}
+/*////////////////......../////////*/
+.new-posts-item {
     margin: 0 auto;
+    max-width: 330px;
+}
+.form {
+    max-width: 330px;
+    margin: 0 auto;
+    display: flex;
+}
+.mailing-submit {
+    margin-top: 15px;
+    /*  max-width: 330px;
+    margin: 0 auto; */
+}
+/*////////////////......../////////*/
+.section:not(:last-child) {
+    margin-bottom: 40px;
+}
+/*////////////////......../////////*/
+.products {
+    margin-bottom: 40px;
+    padding: 0 15px;
+    min-width: 100%;
+    margin-top: 40px;
+}
+.product {
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 .products--items {
     margin: 0 auto;
@@ -72,4 +137,21 @@ html {
     flex-direction: column;
     justify-content: center;
     row-gap: 20px;
+}
+
+/* .product-img  {
+    object-fit: cover;
+} */
+.product-content {
+    box-sizing: content-box;
+    max-width: 285px;
+    position: relative;
+    flex-grow: 1;
+    border: 3px solid #b59f5b;
+    padding: 40px 20px 20px 20px;
+    margin: -35px -20px 0 -20px;
+    z-index: 2;
+}
+.footer-info {
+    margin-top: 45px;
 }

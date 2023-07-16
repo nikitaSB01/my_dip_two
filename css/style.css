@@ -41,7 +41,7 @@ li {
   position: relative;
   width: 100%;
   min-height: 450px;
-  background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/banner-bg.jpg");
+  background-image: url("../img/banner-bg.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   object-fit: cover;
@@ -389,9 +389,12 @@ button {
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!mailing!!!!!!!!!!!!!!!!!!!!!!!!*/
 
 .column-email-input-button {
+  max-width: 330px;
+  margin: 0 auto;
   background-color: #f4f7f6;
 }
 .mailing-email {
+  /*  opacity: 0.54; */
   background-color: #f4f7f6;
   padding-left: 18px;
   outline: none;
