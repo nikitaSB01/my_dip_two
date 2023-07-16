@@ -88,6 +88,9 @@ li {
   max-height: 41px;
   z-index: 2;
 }
+.burger {
+  display: none;
+}
 .nav-list {
   display: flex;
 }
@@ -665,14 +668,14 @@ label {
   flex-direction: row;
   margin-right: 20px;
 }
-input {
+.radio {
   appearance: none;
   background: url("../svg/form-empty-circle.svg");
   width: 18px;
   height: 18px;
   margin: 0 5px 0 0;
 }
-input:checked {
+.radio:checked {
   background: url("../svg/form-circle.svg");
 }
 
