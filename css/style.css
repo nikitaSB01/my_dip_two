@@ -592,7 +592,7 @@ button {
 }
 /*!ВСПЛЫВАЮЩАЯ ФОРМА!*/
 .pop-up {
-  /* display: none; */
+  display: none;
 }
 .pop-up-content {
   max-width: 420px;
