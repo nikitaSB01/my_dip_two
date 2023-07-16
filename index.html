@@ -13,7 +13,7 @@
         <h1 class="new-posts-tittle">ВаШ ФИДбек</h1>
         <form action="" class="pop-up-form">
           <label for="" class="pop-up-label"
-            >Как часто Вы заходите на сайт?
+            ><span>Как часто Вы заходите на сайт?</span>
             <select class="pop-up--select">
               <option value="">Один раз в день</option>
               <option value="" selected>Почти каждый день</option>
@@ -21,16 +21,22 @@
               <option value="">Раз в месяц</option>
             </select>
           </label>
-          <div class="pop-up--radio">
-            <label for="id1"
-              ><input type="radio" name="radio" id="id1" />Да
-            </label>
-            <label for="id2">
-              <input type="radio" name="radio" id="id2" />Нет</label
-            >
-          </div>
+          <label class="pop-up--radio"
+            >Вы подписаны на e-mail рассылку?
+            <div>
+              <label for="id1"
+                ><input type="radio" name="radio" id="id1" checked />Да
+              </label>
+              <label for="id2">
+                <input type="radio" name="radio" id="id2" />Нет</label
+              >
+            </div>
+          </label>
           <label for="" class="pop-up-label"
-            >Расскажите, какой контент Вы хотели бы видеть на нашем сайте?
+            ><span
+              >Расскажите, какой контент Вы хотели бы видеть на нашем
+              сайте?</span
+            >
             <textarea
               class="pop-up--textarea"
               cols="30"
