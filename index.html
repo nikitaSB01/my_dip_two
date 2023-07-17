@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+
     <link rel="stylesheet" href="css/style.css" />
     <link
       rel="stylesheet"
@@ -26,18 +26,18 @@
     <div class="_hidden">
       <div class="pop-up-content">
         <h1 class="new-posts-tittle">ВаШ ФИДбек</h1>
-        <form action="" class="pop-up-form">
-          <label for="" class="pop-up-label"
+        <form method="get" class="pop-up-form">
+          <label for="select" class="pop-up-label"
             ><span>Как часто Вы заходите на сайт?</span>
-            <select class="pop-up--select">
+            <select id="select" class="pop-up--select">
               <option value="">Один раз в день</option>
               <option value="" selected>Почти каждый день</option>
               <option value="">Раз в неделю</option>
               <option value="">Раз в месяц</option>
             </select>
           </label>
-          <label class="pop-up--radio"
-            >Вы подписаны на e-mail рассылку?
+          <div class="pop-up--radio">
+            Вы подписаны на e-mail рассылку?
             <div>
               <label for="id1"
                 ><input
@@ -57,13 +57,14 @@
                 />Нет</label
               >
             </div>
-          </label>
-          <label for="" class="pop-up-label"
+          </div>
+          <label for="textarea" class="pop-up-label"
             ><span
               >Расскажите, какой контент Вы хотели бы видеть на нашем
               сайте?</span
             >
             <textarea
+              id="textarea"
               class="pop-up--textarea"
               cols="30"
               rows="10"
@@ -218,7 +219,9 @@
                   </a>
                 </h1>
                 <div class="post-data-author">
-                  <time class="data-post">10 июня 2019</time>
+                  <time datetime="2019-06-10" class="data-post"
+                    >10 июня 2019</time
+                  >
                   <address class="author">Неизвестный автор</address>
                 </div>
                 <p class="desc">
@@ -244,7 +247,9 @@
                   >
                 </h1>
                 <div class="post-data-author">
-                  <time class="data-post">10 июня 2019</time>
+                  <time datetime="2019-06-10" class="data-post"
+                    >10 июня 2019</time
+                  >
                   <address class="author">Неизвестный автор</address>
                 </div>
                 <p class="desc">
@@ -269,7 +274,9 @@
                   >
                 </h1>
                 <div class="post-data-author">
-                  <time class="data-post">10 июня 2019</time>
+                  <time datetime="2019-06-10" class="data-post"
+                    >10 июня 2019</time
+                  >
                   <address class="author">Неизвестный автор</address>
                 </div>
                 <p class="desc">
@@ -294,7 +301,9 @@
                   >
                 </h1>
                 <div class="post-data-author">
-                  <time class="data-post">10 июня 2019</time>
+                  <time datetime="2019-06-10" class="data-post"
+                    >10 июня 2019</time
+                  >
                   <address class="author">Неизвестный автор</address>
                 </div>
                 <p class="desc">
@@ -317,7 +326,9 @@
                   >
                 </h1>
                 <div class="post-data-author">
-                  <time class="data-post">10 июня 2019</time>
+                  <time datetime="2019-06-10" class="data-post"
+                    >10 июня 2019</time
+                  >
                   <address class="author">Неизвестный автор</address>
                 </div>
                 <p class="desc">
@@ -337,7 +348,7 @@
             <article class="new-posts-item">
               <img class="item-img" src="img/2.jpg" alt="человек на пляже" />
               <div class="item-text">
-                <time class="data">14 июня 2019</time>
+                <time datetime="2019-06-14" class="data">14 июня 2019</time>
                 <h4 class="post-tittle-aside xs">
                   <a href="#0">10 мест, ради которых стоит проснуться</a>
                 </h4>
@@ -346,7 +357,7 @@
             <article class="new-posts-item">
               <img class="item-img" src="img/7.jpg" alt="три девушки" />
               <div class="item-text">
-                <time class="data">14 июня 2019</time>
+                <time datetime="2019-06-14" class="data">14 июня 2019</time>
                 <h4 class="post-tittle-aside xs">
                   <a href="#0">Йога для домашних</a>
                 </h4>
@@ -355,7 +366,7 @@
             <article class="new-posts-item">
               <img class="item-img" src="img/45.jpg" alt="кресло" />
               <div class="item-text">
-                <time class="data">14 июня 2019</time>
+                <time datetime="2019-06-14" class="data">14 июня 2019</time>
                 <h4 class="post-tittle-aside xs">
                   <a href="#0">как мы превратили классное место в балкон</a>
                 </h4>
@@ -368,7 +379,7 @@
                 alt="девушка занимается йогой"
               />
               <div class="item-text">
-                <time class="data">14 июня 2019</time>
+                <time datetime="2019-06-14" class="data">14 июня 2019</time>
                 <h4 class="post-tittle-aside xs">
                   <a href="#0">Кулинарный подход к науке</a>
                 </h4>
@@ -377,7 +388,7 @@
             <article class="new-posts-item">
               <img class="item-img" src="img/501.jpg" alt="едааааа" />
               <div class="item-text">
-                <time class="data">14 июня 2019</time>
+                <time datetime="2019-06-14" class="data">14 июня 2019</time>
                 <h4 class="post-tittle-aside xs">
                   <a href="#0"> лучшие прически для распущенных волос</a>
                 </h4>
@@ -768,7 +779,7 @@
             <a href="#0" class="soc-icon tumblr">
               <svg
                 version="1.1"
-                id="Layer_1"
+                id="Layer_2"
                 xmlns="http://www.w3.org/2000/svg"
                 xmlns:xlink="http://www.w3.org/1999/xlink"
                 x="0px"
