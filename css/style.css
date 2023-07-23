@@ -614,6 +614,9 @@ button {
   transform: translate(-50%, -50%);
   background-color: #ffffff;
   padding: 40px 20px;
+  font-family: "OpenSans", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 22px;
 }
 .cross-svg {
   position: absolute;
@@ -655,9 +658,6 @@ button {
   background-size: 10px;
 }
 .pop-up-label span {
-  font-family: "OpenSans", Arial, sans-serif;
-  font-size: 15px;
-  line-height: 22px;
   color: #0f0d0e;
 }
 .pop-up--select,
