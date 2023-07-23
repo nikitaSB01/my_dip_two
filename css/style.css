@@ -91,6 +91,9 @@ li {
 .burger {
   display: none;
 }
+.logo-mob {
+  display: none;
+}
 .nav-list {
   display: flex;
 }

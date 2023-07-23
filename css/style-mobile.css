@@ -15,7 +15,9 @@ html {
     object-position: center center;
     z-index: 1;
 }
-
+.row {
+    justify-content: end;
+}
 .burger {
     display: block;
     width: 25px;
@@ -24,7 +26,23 @@ html {
 .nav {
     display: none;
 }
+.logo {
+    display: none;
+}
+.logo-mob {
+    display: flex;
+    max-width: 270px;
+    max-height: 60px;
+    margin: 0 auto;
+    margin-top: 170px;
+}
 
+.tittle-text {
+    margin-top: 40px;
+    font-size: 26px;
+    line-height: 36px;
+}
+/*////////////////////////////////*/
 .trends {
     margin-top: 40px;
 }
@@ -52,7 +70,6 @@ html {
         flex-direction: row;
         flex-wrap: wrap;
         column-gap: 0;
-    
     }
 }
 .wrapper {
@@ -66,6 +83,7 @@ html {
 }
 .content {
     max-width: 1170px;
+    min-height: 640px;
     height: 100%;
     margin: 0 auto;
     padding: 0 15px;
