@@ -127,11 +127,12 @@ li {
 .post {
   display: flex;
   justify-content: space-between;
-  max-width: 780px;
+  /*   max-width: 780px; */
   min-height: 295px;
 }
 .post-img {
-  max-width: 380px;
+  max-width: 100%;
+  background-size: cover;
   max-height: 295px;
 }
 .post-text {
