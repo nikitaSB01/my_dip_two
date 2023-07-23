@@ -134,19 +134,19 @@ html {
     /*   margin: 0 auto; */
 }
 /*////////////////......../////////*/
-.new-posts-item {
-    margin: 0 auto;
-    max-width: 330px;
+
+.add-news {
+    max-width: 100%;
+    width: 100%;
 }
 .form {
-    max-width: 330px;
-    margin: 0 auto;
+    min-height: 48px;
+    max-width: 100%;
+    width: 100%;
     display: flex;
 }
-.mailing-submit {
-    margin-top: 15px;
-    /*  max-width: 330px;
-    margin: 0 auto; */
+.column-email-input-button {
+    max-width: 100%;
 }
 /*////////////////......../////////*/
 .section:not(:last-child) {
@@ -154,37 +154,22 @@ html {
 }
 /*////////////////......../////////*/
 .products {
+    padding: 0 30px;
     margin-bottom: 40px;
-    padding: 0 15px;
-    min-width: 100%;
-    margin-top: 40px;
-}
-.product {
-    max-width: 300px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
 }
 .products--items {
-    margin: 0 auto;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    row-gap: 20px;
+    gap: 40px;
 }
-
-/* .product-img  {
+.product {
+    max-width: 100%;
+    width: 100%;
+    margin: 0;
+}
+.product-img picture img {
     object-fit: cover;
-} */
-.product-content {
-    box-sizing: content-box;
-    max-width: 285px;
-    position: relative;
-    flex-grow: 1;
-    border: 3px solid #b59f5b;
-    padding: 40px 20px 20px 20px;
-    margin: -35px -20px 0 -20px;
-    z-index: 2;
+    max-width: 100%;
+    width: 100%;
 }
 .footer-info {
     margin-top: 45px;
