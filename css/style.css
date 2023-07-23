@@ -602,7 +602,7 @@ button {
 }
 /*!ВСПЛЫВАЮЩАЯ ФОРМА!*/
 ._hidden {
-  /*  display: none; */
+   display: none;
 }
 .pop-up-content {
   position: relative;
